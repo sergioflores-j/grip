@@ -1,0 +1,32 @@
+service: accounts-service
+
+package:
+  individually: true
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  hello:
+    handler: src/handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+
+plugins:
+  - serverless-esbuild
+  - serverless-offline
+
+custom:
+  esbuild:
+    minify: false
+    bundle: true
+    sourcemap: true
+    target: node16
+    packager: yarn
+    watch:
+      pattern: ['src/**/*.ts'] # match only typescript files in src directory
+      ignore: ['.serverless/**/*', '.build', '.esbuild']
+
