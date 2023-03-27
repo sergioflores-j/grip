@@ -1,0 +1,31 @@
+{
+  "name": "@grip/eslint-config-shared",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "cypress.js",
+    "common.js",
+    "next.js"
+  ],
+  "dependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.34.0",
+    "eslint-config-next": "^13.1.6",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-testing-library": "^5.10.1",
+    "eslint-config-turbo": "0.0.7",
+    "prettier": "^2.8.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

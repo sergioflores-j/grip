@@ -1,4 +1,4 @@
-import { Button } from "@grip/ui";
+import { Button } from '@grip/ui';
 
 export default function Web() {
   return (

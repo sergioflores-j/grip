@@ -14,7 +14,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "@grip/eslint-config-shared": "*",
     "prettier": "latest",
     "turbo": "latest"
   },
