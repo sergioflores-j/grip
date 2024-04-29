@@ -1,7 +1,23 @@
 # Monorepo
 
-[X] Setup ESLint rules/config
-[X] Setup Jest
+[] Setup ESLint rules/config
+[] Setup Jest / or vitest
 [] Setup CI (gh actions) - backend
+[] Setup NX eslint plugin
+
+## Next Apps
+Choose: 
+  [] Setup with vercel
+  [] Setup with Amplify
+
 [] Setup Next + MUI
-[] Setup vercel
+
+## Design system
+
+[] setup storybook
+[] create basic components
+
+## Services
+
+[] Setup CDK and constructs
+[] ZodToOpenAPI

@@ -1,3 +1,6 @@
+/**
+ * @type {import('eslint').Linter.Config}
+ */
 module.exports = {
   env: {
     es2020: true,
@@ -10,7 +13,6 @@ module.exports = {
     },
   },
   extends: [
-    'turbo',
     'prettier',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/eslint-recommended',

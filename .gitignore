@@ -8,10 +8,8 @@ node_modules
 # testing
 coverage
 
-# next.js
-.next/
-out/
-build
+# bundler
+dist/
 
 # misc
 .DS_Store
@@ -29,11 +27,16 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# turbo
-.turbo
-
 # Services
 .build
 .esbuild
 *.log
 .serverless
+
+# nx
+.nx
+.nx/cache
+
+# Next.js
+.next
+out
